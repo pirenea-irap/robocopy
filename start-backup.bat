@@ -10,6 +10,7 @@ color 0A
 echo [INFO] Start backup script...
 
 :: Appelle PowerShell avec le bon script, sans fenêtre bloquante
+powershell net use Z: "\\nas-pirenea.irap.omp.eu\PIRENEA_DATA"
 powershell -ExecutionPolicy Bypass -NoLogo -NoProfile -File "%~dp0backup_gui_log_timestamp.ps1"
 
 echo.

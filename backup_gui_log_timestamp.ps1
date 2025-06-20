@@ -8,8 +8,8 @@ Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
 # === Répertoires par défaut (PILAB ou PIRENEA) ===
-$srcFolder = "D:\PIRENEA\truc"
-$destFolder = "Z:\PIRENEA_DATA\truc"
+$srcFolder = "D:\PIRENEA\DATA\2025"
+$destFolder = "Z:\PIRENEA_DATA\2025"
 
 # === Créer la fenêtre principale ===
 $form = New-Object System.Windows.Forms.Form
