@@ -1,2 +1,2 @@
 # robocopy
-Scripts powershelle pour sauvegarde
+Scripts PowerShell pour sauvegarde PC Windows
