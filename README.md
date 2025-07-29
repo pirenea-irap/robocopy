@@ -1,5 +1,5 @@
 # robocopy
-Scripts PowerShell pour sauvegarde PC Windows
+Scripts PowerShell for backup (PC Windows)
 ## Getting started
 * Select one of the .ps1 script, with or without a timestamp in the log filename
 ## Run
